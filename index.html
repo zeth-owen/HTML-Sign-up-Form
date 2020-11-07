@@ -33,7 +33,8 @@
                     <label for="city">Your City</label>
                     <input type="text" id="city" name="city">
                     <label for="state">Your State</label>
-                    <select name="state">
+                    <input list="state-list" id="state" name="state">
+                    <datalist id="state-list">
                         <option value="AK">Alaska</option>
                         <option value="AL">Alabama</option>
                         <option value="AR">Arkansas</option>
@@ -83,7 +84,7 @@
                         <option value="WI">Wisconsin</option>
                         <option value="WV">West Virginia</option>
                         <option value="WY">Wyoming</option>
-                    </select>
+                    </datalist>
                     <label for="zip">Your Zipcode</label>
                     <input type="number" id="zip" name="zip">
                 </div>
@@ -135,5 +136,9 @@
             <input type="submit" value="Enter the Contest!">
         </form>
     </main>
+    <footer>
+        <h2>Resource Attributions</h2>
+        <p>All images provided for free use via <a href="https://unsplash.com/">Unsplash.com</a> whose generous <a href="https://unsplash.com/license">license details can be found here</a>.</p>
+    </footer>
 </body>
 </html>
